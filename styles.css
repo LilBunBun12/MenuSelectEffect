@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+.frontPageContainer{
+    display: flex;
+}
+
+.Minimalist{
+    background-image:url("../images/Minimalist/CremeVestAndPants2.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    /* background-color: aliceblue; */
+}
+
+.Dressy{
+    background-image: url("../images/Dressy/BoatBlackshirtandCremePants.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.Streetwear{
+    background-image: url("../images/Streetwear/Buckethat.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover; 
+}
+
+
+
+.frontPageButton{
+    
+    background-color:skyblue;
+    object-fit: cover;
+    color: white;
+    cursor: pointer;
+    flex: 1;
+    transition:flex-grow 0.5s;
+    border: 0px;
+    height:100vh;
+    width:100vw;
+}
+
+.frontPageButton:hover{
+    flex-grow: 2;
+}

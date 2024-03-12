@@ -1,0 +1,38 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flex-item {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    transition: flex-grow 0.3s; /* Add a transition for a smooth effect */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .item-image {
+    width: 100px; /* Adjust the image size as needed */
+    height: 100px;
+  }
+  
+  .item1 {
+    /* background-image:url("../images/Dressy/BoatBlackshirtandCremePants.jpg"); */
+    background-color: lightblue;
+  }
+  
+  .item2 {
+    background-color: lightgreen;
+  }
+  
+  .item3 {
+    background-color: lightcoral;
+  }
+  
+  .flex-item:hover {
+    flex-grow: 2;
+    background-color: pink;
+  }
